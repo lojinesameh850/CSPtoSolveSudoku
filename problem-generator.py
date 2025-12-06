@@ -1,4 +1,32 @@
 import random
+class Variable:
+    row : int
+    col : int
+    val : int
+    domain : list
+    def __init__(self, row , col, val=0 ):
+        self.row = row
+        self.col = col
+        self.val = val
+        if val ==0:
+            self.domain = [x for x in range(1,10)]
+        else:
+            self.domain = [val]
+        self.neighbors = set()
+    def remove_from_domain(self,val):
+        if val in self.domain:
+            self.domain.remove(val)
+    def add_neighbor(self,xj):
+        self.neighbors.add(xj)
+class Constraint:
+    xi : Variable
+    xj : Variable
+
+    def __init__(self, xi, xj):
+        self.xi = xi
+        self.xj = xj
+        self.xi.add_neighbor(xj)
+        self.xj.add_neighbor(xi)
 def generate_board(difficulty):
     clue_counts = {
         "easy" : 45,
@@ -79,7 +107,47 @@ def create_board(mode):
         print('error unknown mode selected')
         exit(-1)
     return board
+def build_csp_problem(board):
+    variables = [[Variable(r, c, board[r][c]) for c in range(9)] for r in range(9)]
+    constraints = []
+
+    for r in range(9):
+        for c in range(9):
+            Xi = variables[r][c]
+
+            for cc in range(9):
+                if cc != c:
+                    Xj = variables[r][cc]
+                    constraints.append(Constraint(Xi, Xj))
+
+            for rr in range(9):
+                if rr != r:
+                    Xj = variables[rr][c]
+                    constraints.append(Constraint(Xi, Xj))
+
+            sr = (r // 3) * 3
+            sc = (c // 3) * 3
+            for rr in range(sr, sr + 3):
+                for cc in range(sc, sc + 3):
+                    if rr != r or cc != c:
+                        Xj = variables[rr][cc]
+                        constraints.append(Constraint(Xi, Xj))
+
+    return variables, constraints
+def print_variables(variables):
+    for r in range(9):
+        for c in range(9):
+            v = variables[r][c]
+            print(f"X{v.row}{v.col} -> {v.domain}")
+def print_constraints(constraints):
+    for con in constraints:
+        xi = con.xi
+        xj = con.xj
+        print(f"(X{xi.row}{xi.col}, X{xj.row}{xj.col})")
 if __name__ == "__main__":
     board = create_board(1)
     print("generated board : ")
     print_board(board)
+    variables, constraints = build_csp_problem(board)
+    print_variables(variables)
+    # print_constraints(constraints)
