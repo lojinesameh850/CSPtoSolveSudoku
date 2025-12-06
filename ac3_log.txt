@@ -1,0 +1,909 @@
+picked X00 with minimum domain size 9
+(00,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(00,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(00,40) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 5, 6, 7, 9], removed elements [4]
+(00,70) xij domain changed from [1, 2, 5, 6, 7, 9] -> [1, 2, 5, 7, 9], removed elements [6]
+picked X01 with minimum domain size 9
+(01,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(01,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(01,31) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 4, 5, 6, 7, 9], removed elements [2]
+picked X02 with minimum domain size 9
+(02,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(02,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(02,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X03 with minimum domain size 9
+(03,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(03,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(03,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X04 with minimum domain size 9
+(04,84) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+picked X05 with minimum domain size 9
+(05,45) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+picked X06 with minimum domain size 9
+(06,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+picked X07 with minimum domain size 9
+(07,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(07,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(07,87) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+picked X08 with minimum domain size 9
+(07,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(07,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(07,87) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+picked X08 with minimum domain size 9
+(08,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(08,88) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8], removed elements [9]
+picked X10 with minimum domain size 9
+(10,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(10,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(10,40) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 5, 6, 7, 9], removed elements [4]
+(10,70) xij domain changed from [1, 2, 5, 6, 7, 9] -> [1, 2, 5, 7, 9], removed elements [6]
+picked X12 with minimum domain size 9
+(12,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(12,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(12,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X13 with minimum domain size 9
+(13,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(13,18) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 4, 6, 7, 8, 9], removed elements [3]
+(13,73) xij domain changed from [1, 2, 4, 6, 7, 8, 9] -> [1, 2, 4, 6, 7, 8], removed elements [9]
+(13,11) xij domain changed from [1, 2, 4, 6, 7, 8] -> [1, 2, 4, 6, 7], removed elements [8]
+(13,83) xij domain changed from [1, 2, 4, 6, 7] -> [1, 2, 4, 7], removed elements [6]
+picked X14 with minimum domain size 9
+(14,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(14,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(14,84) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 6, 7, 9], removed elements [5]
+picked X15 with minimum domain size 9
+(15,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(15,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(15,45) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7], removed elements [9]
+picked X16 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(14,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(14,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(14,84) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 6, 7, 9], removed elements [5]
+picked X15 with minimum domain size 9
+(15,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(15,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(15,45) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7], removed elements [9]
+picked X16 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(14,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(14,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(14,84) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 6, 7, 9], removed elements [5]
+picked X15 with minimum domain size 9
+(15,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(15,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(15,45) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7], removed elements [9]
+picked X16 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(15,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(15,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(15,45) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7], removed elements [9]
+picked X16 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(16,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(16,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+picked X17 with minimum domain size 9
+(17,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(17,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(17,57) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+(17,87) xij domain changed from [1, 2, 4, 5, 7, 9] -> [1, 2, 5, 7, 9], removed elements [4]
+picked X20 with minimum domain size 9
+(20,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(20,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(20,40) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 5, 6, 7, 9], removed elements [4]
+(20,70) xij domain changed from [1, 2, 5, 6, 7, 9] -> [1, 2, 5, 7, 9], removed elements [6]
+picked X21 with minimum domain size 9
+(21,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(21,11) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [8]
+(21,31) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 4, 5, 6, 7, 9], removed elements [2]
+picked X23 with minimum domain size 9
+(23,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(23,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(23,22) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 4, 6, 7, 8], removed elements [3]
+(23,83) xij domain changed from [1, 2, 4, 6, 7, 8] -> [1, 2, 4, 7, 8], removed elements [6]
+picked X24 with minimum domain size 9
+(24,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(24,84) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 6, 7, 8, 9], removed elements [5]
+picked X25 with minimum domain size 9
+(25,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(25,45) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8], removed elements [9]
+picked X26 with minimum domain size 9
+(26,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+picked X27 with minimum domain size 9
+(27,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(27,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(27,87) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+picked X28 with minimum domain size 9
+(28,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(28,88) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8], removed elements [9]
+picked X30 with minimum domain size 9
+(30,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(30,52) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [8]
+(30,40) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 3, 6, 7, 9], removed elements [4]
+(30,42) xij domain changed from [1, 2, 3, 6, 7, 9] -> [1, 2, 3, 7, 9], removed elements [6]
+(30,31) xij domain changed from [1, 2, 3, 7, 9] -> [1, 3, 7, 9], removed elements [2]
+picked X32 with minimum domain size 9
+(32,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(32,52) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [8]
+(32,22) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 4, 6, 7, 9], removed elements [3]
+(32,40) xij domain changed from [1, 2, 4, 6, 7, 9] -> [1, 2, 6, 7, 9], removed elements [4]
+(32,42) xij domain changed from [1, 2, 6, 7, 9] -> [1, 2, 7, 9], removed elements [6]
+(32,31) xij domain changed from [1, 2, 7, 9] -> [1, 7, 9], removed elements [2]
+picked X34 with minimum domain size 9
+(34,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(34,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(34,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X35 with minimum domain size 9
+(35,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(35,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(35,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X36 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(38,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(38,18) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 4, 6, 7, 8, 9], removed elements [3]
+(38,57) xij domain changed from [1, 2, 4, 6, 7, 8, 9] -> [1, 2, 4, 7, 8, 9], removed elements [6]
+(38,88) xij domain changed from [1, 2, 4, 7, 8, 9] -> [1, 2, 4, 7, 8], removed elements [9]
+(38,31) xij domain changed from [1, 2, 4, 7, 8] -> [1, 4, 7, 8], removed elements [2]
+picked X41 with minimum domain size 9
+(41,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(41,40) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 5, 6, 7, 9], removed elements [4]
+(41,42) xij domain changed from [1, 2, 3, 5, 6, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [6]
+(41,45) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 2, 3, 5, 7], removed elements [9]
+(41,31) xij domain changed from [1, 2, 3, 5, 7] -> [1, 3, 5, 7], removed elements [2]
+picked X43 with minimum domain size 9
+(43,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(43,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(43,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 6, 7, 8], removed elements [4]
+(43,42) xij domain changed from [1, 2, 3, 6, 7, 8] -> [1, 2, 3, 7, 8], removed elements [6]
+picked X44 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(50,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(50,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(50,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(50,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X51 with minimum domain size 9
+(51,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(51,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(51,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(51,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X53 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(50,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(50,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(50,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(50,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X51 with minimum domain size 9
+(51,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(51,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(51,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(51,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X53 with minimum domain size 9
+(43,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(43,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(43,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 6, 7, 8], removed elements [4]
+(43,42) xij domain changed from [1, 2, 3, 6, 7, 8] -> [1, 2, 3, 7, 8], removed elements [6]
+picked X44 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(41,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(41,40) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 5, 6, 7, 9], removed elements [4]
+(41,42) xij domain changed from [1, 2, 3, 5, 6, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [6]
+(41,45) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 2, 3, 5, 7], removed elements [9]
+(41,31) xij domain changed from [1, 2, 3, 5, 7] -> [1, 3, 5, 7], removed elements [2]
+picked X43 with minimum domain size 9
+(43,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(43,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(43,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 6, 7, 8], removed elements [4]
+(43,42) xij domain changed from [1, 2, 3, 6, 7, 8] -> [1, 2, 3, 7, 8], removed elements [6]
+picked X44 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(35,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(35,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(35,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X36 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(34,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(34,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(34,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X35 with minimum domain size 9
+(35,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(35,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(35,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X36 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(35,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(35,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(35,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X36 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(32,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(32,52) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [8]
+(32,22) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 4, 6, 7, 9], removed elements [3]
+(32,40) xij domain changed from [1, 2, 4, 6, 7, 9] -> [1, 2, 6, 7, 9], removed elements [4]
+(32,42) xij domain changed from [1, 2, 6, 7, 9] -> [1, 2, 7, 9], removed elements [6]
+(32,31) xij domain changed from [1, 2, 7, 9] -> [1, 7, 9], removed elements [2]
+picked X34 with minimum domain size 9
+(34,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(34,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(34,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X35 with minimum domain size 9
+(35,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(35,45) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(35,31) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 3, 4, 6, 7, 8], removed elements [2]
+picked X36 with minimum domain size 9
+(36,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(36,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(36,31) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 3, 4, 7, 8, 9], removed elements [2]
+picked X37 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(37,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(37,57) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 7, 8, 9], removed elements [6]
+(37,87) xij domain changed from [1, 2, 3, 4, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [4]
+(37,31) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 3, 7, 8, 9], removed elements [2]
+picked X38 with minimum domain size 9
+(38,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(38,18) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 4, 6, 7, 8, 9], removed elements [3]
+(38,57) xij domain changed from [1, 2, 4, 6, 7, 8, 9] -> [1, 2, 4, 7, 8, 9], removed elements [6]
+(38,88) xij domain changed from [1, 2, 4, 7, 8, 9] -> [1, 2, 4, 7, 8], removed elements [9]
+(38,31) xij domain changed from [1, 2, 4, 7, 8] -> [1, 4, 7, 8], removed elements [2]
+picked X41 with minimum domain size 9
+(41,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(41,40) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 5, 6, 7, 9], removed elements [4]
+(41,42) xij domain changed from [1, 2, 3, 5, 6, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [6]
+(41,45) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 2, 3, 5, 7], removed elements [9]
+(41,31) xij domain changed from [1, 2, 3, 5, 7] -> [1, 3, 5, 7], removed elements [2]
+picked X43 with minimum domain size 9
+(43,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(43,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(43,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 6, 7, 8], removed elements [4]
+(43,42) xij domain changed from [1, 2, 3, 6, 7, 8] -> [1, 2, 3, 7, 8], removed elements [6]
+picked X44 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(44,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(44,40) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 6, 7, 8, 9], removed elements [4]
+(44,42) xij domain changed from [1, 2, 3, 6, 7, 8, 9] -> [1, 2, 3, 7, 8, 9], removed elements [6]
+(44,45) xij domain changed from [1, 2, 3, 7, 8, 9] -> [1, 2, 3, 7, 8], removed elements [9]
+picked X46 with minimum domain size 9
+(46,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(46,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(46,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X47 with minimum domain size 9
+(47,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(47,40) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(47,45) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X48 with minimum domain size 9
+(48,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(48,57) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 7, 8, 9], removed elements [6]
+(48,40) xij domain changed from [1, 2, 4, 5, 7, 8, 9] -> [1, 2, 5, 7, 8, 9], removed elements [4]
+(48,45) xij domain changed from [1, 2, 5, 7, 8, 9] -> [1, 2, 5, 7, 8], removed elements [9]
+picked X50 with minimum domain size 9
+(50,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(50,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(50,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(50,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X51 with minimum domain size 9
+(51,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(51,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(51,40) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [4]
+(51,31) xij domain changed from [1, 2, 3, 5, 7, 9] -> [1, 3, 5, 7, 9], removed elements [2]
+picked X53 with minimum domain size 9
+(53,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(53,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [5]
+(53,73) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 3, 4, 6, 7], removed elements [9]
+(53,57) xij domain changed from [1, 2, 3, 4, 6, 7] -> [1, 2, 3, 4, 7], removed elements [6]
+picked X54 with minimum domain size 9
+(54,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(54,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [5]
+(54,57) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 3, 4, 7, 9], removed elements [6]
+(54,45) xij domain changed from [1, 2, 3, 4, 7, 9] -> [1, 2, 3, 4, 7], removed elements [9]
+picked X55 with minimum domain size 9
+(55,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(55,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 6, 7, 9], removed elements [5]
+(55,57) xij domain changed from [1, 2, 3, 4, 6, 7, 9] -> [1, 2, 3, 4, 7, 9], removed elements [6]
+(55,45) xij domain changed from [1, 2, 3, 4, 7, 9] -> [1, 2, 3, 4, 7], removed elements [9]
+picked X56 with minimum domain size 9
+(56,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(56,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+picked X58 with minimum domain size 9
+(58,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(58,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(58,57) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+(58,88) xij domain changed from [1, 2, 4, 5, 7, 9] -> [1, 2, 4, 5, 7], removed elements [9]
+picked X60 with minimum domain size 9
+(60,40) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(60,80) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 9], removed elements [8]
+(60,70) xij domain changed from [1, 2, 3, 5, 6, 7, 9] -> [1, 2, 3, 5, 7, 9], removed elements [6]
+picked X61 with minimum domain size 9
+(61,11) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(61,70) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(61,31) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 3, 4, 5, 7, 9], removed elements [2]
+picked X62 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(61,11) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(61,70) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(61,31) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 3, 4, 5, 7, 9], removed elements [2]
+picked X62 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(61,11) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(61,70) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(61,31) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 3, 4, 5, 7, 9], removed elements [2]
+picked X62 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(62,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(62,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(62,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+picked X63 with minimum domain size 9
+(63,33) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8, 9], removed elements [5]
+(63,73) xij domain changed from [1, 2, 3, 4, 6, 7, 8, 9] -> [1, 2, 3, 4, 6, 7, 8], removed elements [9]
+(63,83) xij domain changed from [1, 2, 3, 4, 6, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [6]
+picked X64 with minimum domain size 9
+(64,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(64,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(64,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X65 with minimum domain size 9
+(65,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(65,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(65,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X66 with minimum domain size 9
+(66,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8, 9], removed elements [4]
+(66,88) xij domain changed from [1, 2, 3, 5, 6, 7, 8, 9] -> [1, 2, 3, 5, 6, 7, 8], removed elements [9]
+picked X67 with minimum domain size 9
+(67,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 7, 8, 9], removed elements [6]
+(67,87) xij domain changed from [1, 2, 3, 4, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8, 9], removed elements [4]
+(67,88) xij domain changed from [1, 2, 3, 5, 7, 8, 9] -> [1, 2, 3, 5, 7, 8], removed elements [9]
+picked X68 with minimum domain size 9
+(68,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(68,87) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 5, 6, 7, 8, 9], removed elements [4]
+(68,88) xij domain changed from [1, 2, 5, 6, 7, 8, 9] -> [1, 2, 5, 6, 7, 8], removed elements [9]
+picked X71 with minimum domain size 9
+(71,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(71,11) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 6, 7], removed elements [8]
+(71,70) xij domain changed from [1, 2, 3, 4, 5, 6, 7] -> [1, 2, 3, 4, 5, 7], removed elements [6]
+(71,31) xij domain changed from [1, 2, 3, 4, 5, 7] -> [1, 3, 4, 5, 7], removed elements [2]
+picked X72 with minimum domain size 9
+(72,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(72,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 6, 7], removed elements [9]
+(72,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7] -> [1, 2, 4, 5, 6, 7], removed elements [3]
+(72,42) xij domain changed from [1, 2, 4, 5, 6, 7] -> [1, 2, 4, 5, 7], removed elements [6]
+picked X74 with minimum domain size 9
+(74,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(74,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(74,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X75 with minimum domain size 9
+(75,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(75,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(75,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X76 with minimum domain size 9
+(76,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(76,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 5, 6, 7, 8], removed elements [4]
+(76,70) xij domain changed from [1, 2, 3, 5, 6, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [6]
+picked X77 with minimum domain size 9
+(75,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(75,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(75,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X76 with minimum domain size 9
+(76,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(76,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 5, 6, 7, 8], removed elements [4]
+(76,70) xij domain changed from [1, 2, 3, 5, 6, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [6]
+picked X77 with minimum domain size 9
+(72,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(72,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 6, 7], removed elements [9]
+(72,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7] -> [1, 2, 4, 5, 6, 7], removed elements [3]
+(72,42) xij domain changed from [1, 2, 4, 5, 6, 7] -> [1, 2, 4, 5, 7], removed elements [6]
+picked X74 with minimum domain size 9
+(74,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(74,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(74,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X75 with minimum domain size 9
+(75,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(75,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(75,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X76 with minimum domain size 9
+(76,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(76,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 5, 6, 7, 8], removed elements [4]
+(76,70) xij domain changed from [1, 2, 3, 5, 6, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [6]
+picked X77 with minimum domain size 9
+(77,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(77,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(77,87) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [4]
+picked X78 with minimum domain size 9
+(75,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(75,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(75,84) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 4, 7, 8], removed elements [5]
+picked X76 with minimum domain size 9
+(76,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(76,87) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 5, 6, 7, 8], removed elements [4]
+(76,70) xij domain changed from [1, 2, 3, 5, 6, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [6]
+picked X77 with minimum domain size 9
+(77,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(77,57) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 7, 8], removed elements [6]
+(77,87) xij domain changed from [1, 2, 3, 4, 5, 7, 8] -> [1, 2, 3, 5, 7, 8], removed elements [4]
+picked X78 with minimum domain size 9
+(78,18) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8, 9], removed elements [3]
+(78,73) xij domain changed from [1, 2, 4, 5, 6, 7, 8, 9] -> [1, 2, 4, 5, 6, 7, 8], removed elements [9]
+(78,87) xij domain changed from [1, 2, 4, 5, 6, 7, 8] -> [1, 2, 5, 6, 7, 8], removed elements [4]
+(78,70) xij domain changed from [1, 2, 5, 6, 7, 8] -> [1, 2, 5, 7, 8], removed elements [6]
+picked X81 with minimum domain size 9
+(81,11) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(81,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(81,84) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 4, 7, 9], removed elements [5]
+(81,87) xij domain changed from [1, 2, 3, 4, 7, 9] -> [1, 2, 3, 7, 9], removed elements [4]
+(81,88) xij domain changed from [1, 2, 3, 7, 9] -> [1, 2, 3, 7], removed elements [9]
+(81,31) xij domain changed from [1, 2, 3, 7] -> [1, 3, 7], removed elements [2]
+picked X82 with minimum domain size 9
+(82,52) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(82,22) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 6, 7, 9], removed elements [3]
+(82,42) xij domain changed from [1, 2, 4, 5, 6, 7, 9] -> [1, 2, 4, 5, 7, 9], removed elements [6]
+(82,84) xij domain changed from [1, 2, 4, 5, 7, 9] -> [1, 2, 4, 7, 9], removed elements [5]
+(82,87) xij domain changed from [1, 2, 4, 7, 9] -> [1, 2, 7, 9], removed elements [4]
+(82,88) xij domain changed from [1, 2, 7, 9] -> [1, 2, 7], removed elements [9]
+picked X85 with minimum domain size 9
+(85,73) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 8], removed elements [9]
+(85,80) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8] -> [1, 2, 3, 4, 5, 6, 7], removed elements [8]
+(85,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7] -> [1, 2, 3, 4, 5, 7], removed elements [6]
+(85,84) xij domain changed from [1, 2, 3, 4, 5, 7] -> [1, 2, 3, 4, 7], removed elements [5]
+(85,87) xij domain changed from [1, 2, 3, 4, 7] -> [1, 2, 3, 7], removed elements [4]
+picked X86 with minimum domain size 9
+(86,80) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 8, 9] -> [1, 2, 3, 4, 5, 6, 7, 9], removed elements [8]
+(86,83) xij domain changed from [1, 2, 3, 4, 5, 6, 7, 9] -> [1, 2, 3, 4, 5, 7, 9], removed elements [6]
+(86,84) xij domain changed from [1, 2, 3, 4, 5, 7, 9] -> [1, 2, 3, 4, 7, 9], removed elements [5]
+(86,87) xij domain changed from [1, 2, 3, 4, 7, 9] -> [1, 2, 3, 7, 9], removed elements [4]
+(86,88) xij domain changed from [1, 2, 3, 7, 9] -> [1, 2, 3, 7], removed elements [9]

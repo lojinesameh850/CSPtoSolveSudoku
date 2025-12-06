@@ -1,79 +1,73 @@
 from PyQt6 import QtWidgets, QtGui, QtCore
 import sys, random
+from problemGenerator import generate_board , Constraint , Variable, build_csp_problem, is_valid
+from collections import deque
 
-# Sudoku Backtracking + Puzzle Generator 
-def generate_full_solution():
-    board = [[0]*9 for _ in range(9)]
-    digits = list(range(1,10))
 
-    def is_valid(bd, r, c, val):
-        if any(bd[r][j] == val for j in range(9)): return False
-        if any(bd[i][c] == val for i in range(9)): return False
-        sr, sc = (r//3)*3, (c//3)*3
-        for i in range(sr, sr+3):
-            for j in range(sc, sc+3):
-                if bd[i][j] == val: return False
-        return True
+def solve_sudoku(variables, constraints):
+    steps = []
+    board_history = [] 
 
-    def fill(bd):
-        for i in range(9):
-            for j in range(9):
-                if bd[i][j] == 0:
-                    random.shuffle(digits)
-                    for d in digits:
-                        if is_valid(bd, i, j, d):
-                            bd[i][j] = d
-                            if fill(bd): return True
-                            bd[i][j] = 0
+    def select_unassigned_var(variables):
+        unassigned = [v for row in variables for v in row if v.val == 0]
+        if not unassigned:
+            return None
+        return min(unassigned, key=lambda v: len(v.domain))
+
+    def ac3_after_assignment(var):
+        queue = deque([Constraint(var, neighbor) for neighbor in var.neighbors])
+        while queue:
+            con = queue.popleft()
+            if con.resolve():
+                if not con.xi.domain:
                     return False
+                for neighbor in con.xi.neighbors:
+                    if neighbor != con.xj:
+                        queue.append(Constraint(neighbor, con.xi))
         return True
 
-    fill(board)
-    return board
-
-
-def generate_puzzle(difficulty):
-    solution = generate_full_solution()
-    puzzle = [row[:] for row in solution]
-    remove = {"Easy":40,"Medium":50,"Hard":55}.get(difficulty,40)
-    cells = [(r,c) for r in range(9) for c in range(9)]
-    random.shuffle(cells)
-    for k in range(remove):
-        r,c = cells[k]
-        puzzle[r][c] = 0
-    return puzzle
-
-
-def solve_sudoku(board):
-    bd = [row[:] for row in board]
-
-    def find_empty(bd):
-        for i in range(9):
-            for j in range(9):
-                if bd[i][j] == 0: return i,j
-        return None
-
-    def is_valid(bd,r,c,val):
-        if any(bd[r][j]==val for j in range(9)): return False
-        if any(bd[i][c]==val for i in range(9)): return False
-        sr, sc = (r//3)*3, (c//3)*3
-        for i in range(sr, sr+3):
-            for j in range(sc, sc+3):
-                if bd[i][j] == val: return False
-        return True
+    def record_board():
+        board_snapshot = [[variables[r][c].val for c in range(9)] for r in range(9)]
+        board_history.append(board_snapshot)
 
     def backtrack():
-        empty = find_empty(bd)
-        if not empty: return True
-        r,c = empty
-        for val in range(1,10):
-            if is_valid(bd,r,c,val):
-                bd[r][c] = val
-                if backtrack(): return True
-                bd[r][c] = 0
+        var = select_unassigned_var(variables)
+        if var is None:
+            record_board()
+            return True  
+        with open('ac3_log.txt' , 'a') as F:
+            F.write(f"picked X{var.row}{var.col} with minimum domain size {len(var.domain)}\n")
+        board = [[variables[r][c].val for c in range(9)] for r in range(9)]
+        original_domain = var.domain[:]
+        for val in original_domain:
+            if not is_valid(board, var.row,var.col,val):
+                continue
+            var.val = val
+            steps.append(f"Assign X{var.row}{var.col} = {val}")
+            record_board()
+
+            neighbor_domains_backup = {n: n.domain[:] for n in var.neighbors}
+
+            if ac3_after_assignment(var):
+                if backtrack():
+                    return True
+
+            steps.append(f"Backtrack X{var.row}{var.col} from {val}")
+            var.val = 0
+            var.domain = original_domain[:]
+            for n in var.neighbors:
+                n.domain = neighbor_domains_backup[n]
+            record_board()
+
         return False
 
-    return bd if backtrack() else None
+    success = backtrack()
+    if success:
+        solved_board = [[variables[r][c].val for c in range(9)] for r in range(9)]
+        return solved_board, steps, board_history
+    else:
+        return None, steps, board_history
+
 
 # Sudoku Cell Widget
 PASTEL_BG = "#f5f5f5"
@@ -93,7 +87,7 @@ class SudokuCell(QtWidgets.QLineEdit):
         self.reset_style()
         if fixed:
             self.setReadOnly(True)
-
+        self.setMaxLength(1)
     def highlight_error(self):
         self.setStyleSheet(f"background:{PASTEL_ERROR}; color:#d32f2f; border:1px solid #d32f2f; border-radius:3px; font-weight:bold;")
 
@@ -106,7 +100,6 @@ class SudokuCell(QtWidgets.QLineEdit):
         else:
             self.setStyleSheet(f"background:#ffffff; color:#333; border:1px solid #aaa; border-radius:3px; font-weight:normal;")
 
-# Main Game Window
 class SudokuGame(QtWidgets.QWidget):
     restart_signal = QtCore.pyqtSignal()
 
@@ -118,14 +111,15 @@ class SudokuGame(QtWidgets.QWidget):
         self.difficulty = difficulty
         self.cells = []
         self.grid_layout = None
-
+        self.board_history = []
+        self.history_index = 0
+        
         if self.mode == 0:
-            self.puzzle = generate_puzzle(self.difficulty)
+            self.puzzle = generate_board(self.difficulty)
             self.editable = False
         else:
             self.puzzle = [[0]*9 for _ in range(9)]
             self.editable = True
-
         self.build_ui()
 
     def build_ui(self):
@@ -133,7 +127,6 @@ class SudokuGame(QtWidgets.QWidget):
         
         layout.addStretch() 
 
-        # Sudoku board grid
         self.grid_layout = QtWidgets.QGridLayout()
         self.grid_layout.setSpacing(0)
         self.grid_layout.setContentsMargins(0, 0, 0, 0)
@@ -197,6 +190,42 @@ class SudokuGame(QtWidgets.QWidget):
         layout.addLayout(h_center_btns)
         
         layout.addStretch() 
+        history_layout = QtWidgets.QHBoxLayout()
+        self.prev_btn = QtWidgets.QPushButton("Previous")
+        self.next_btn = QtWidgets.QPushButton("Next")
+        self.prev_btn.clicked.connect(self.show_prev_board)
+        self.next_btn.clicked.connect(self.show_next_board)
+        self.prev_btn.setEnabled(False)
+        self.next_btn.setEnabled(False)
+        history_layout.addWidget(self.prev_btn)
+        history_layout.addWidget(self.next_btn)
+        layout.addLayout(history_layout)
+    def show_board(self, board):
+        for r in range(9):
+            for c in range(9):
+                val = board[r][c]
+                cell = self.cells[r][c]
+                if val == 0:
+                    cell.setText("")
+                else:
+                    cell.setText(str(val))
+                cell.reset_style()
+
+    def show_prev_board(self):
+        if self.history_index > 0:
+            self.history_index -= 1
+            self.show_board(self.board_history[self.history_index])
+        self.update_history_buttons()
+
+    def show_next_board(self):
+        if self.history_index < len(self.board_history) - 1:
+            self.history_index += 1
+            self.show_board(self.board_history[self.history_index])
+        self.update_history_buttons()
+
+    def update_history_buttons(self):
+        self.prev_btn.setEnabled(self.history_index > 0)
+        self.next_btn.setEnabled(self.history_index < len(self.board_history) - 1)
 
     def build_board(self):
         self.cells = []
@@ -279,17 +308,20 @@ class SudokuGame(QtWidgets.QWidget):
                 row.append(int(t) if t.isdigit() else 0)
             board.append(row)
 
-        solved = solve_sudoku(board)
+        self.variables, self.constraints = build_csp_problem(board)
+        solved, steps, history = solve_sudoku(self.variables, self.constraints)
+        with open('steps.txt' , 'a') as F:
+            for step in steps:
+                F.write(f"{step}\n")
+        self.board_history = history
+        self.history_index = len(history)-1
+        self.update_history_buttons()
+
         if solved is None:
             QtWidgets.QMessageBox.information(self,"Unsolvable","No solution exists.")
             return
 
-        for r in range(9):
-            for c in range(9):
-                cell = self.cells[r][c]
-                cell.setText(str(solved[r][c]))
-                cell.setReadOnly(True)
-                cell.reset_style()
+        self.show_board(solved)
 
 
 # Start Menu
