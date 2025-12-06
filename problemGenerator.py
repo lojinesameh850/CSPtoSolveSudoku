@@ -29,10 +29,20 @@ class Constraint:
 
     def resolve(self):
         removed = False
-        for val in self.xi.domain[:]:
-            if not any(val != other for other in self.xj.domain):
+        original_domain = self.xi.domain[:]
+        removed_elements = []
+        for val in original_domain:
+            if all(val == other for other in self.xj.domain):
                 self.xi.domain.remove(val)
+                removed_elements.append(val)
                 removed = True
+
+        if removed:
+            with open("ac3_log.txt", "a") as f:
+                f.write(f"({self.xi.row}{self.xi.col},{self.xj.row}{self.xj.col}) "
+                        f"xij domain changed from {original_domain} -> {self.xi.domain}, "
+                        f"removed elements {removed_elements}\n")
+
         return removed
 
 
@@ -60,9 +70,9 @@ def is_valid(board, r, c, val):
 
 def generate_board(difficulty):
     clue_counts = {
-        "easy": 45,
-        "intermediate": 33,
-        "hard": 17
+        "Easy": 45,
+        "Intermediate": 33,
+        "Hard": 17
     }
     clues = clue_counts[difficulty]
 
@@ -169,7 +179,7 @@ def build_csp_problem(board):
                     if rr != r or cc != c:
                         Xj = variables[rr][cc]
                         constraints.append(Constraint(Xi, Xj))
-
+    print_variables(variables)
     return variables, constraints
 
 
