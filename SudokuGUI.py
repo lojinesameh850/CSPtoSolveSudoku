@@ -1,12 +1,12 @@
 from PyQt6 import QtWidgets, QtGui, QtCore
 import sys, random
-from problemGenerator import generate_board , Constraint , Variable, build_csp_problem
+from problemGenerator import generate_board , Constraint , Variable, build_csp_problem, is_valid
 from collections import deque
 
 
 def solve_sudoku(variables, constraints):
     steps = []
-    board_history = []  # <-- Store board states
+    board_history = [] 
 
     def select_unassigned_var(variables):
         unassigned = [v for row in variables for v in row if v.val == 0]
@@ -30,90 +30,38 @@ def solve_sudoku(variables, constraints):
         board_snapshot = [[variables[r][c].val for c in range(9)] for r in range(9)]
         board_history.append(board_snapshot)
 
-    from collections import deque
-
-def solve_sudoku(variables, constraints):
-    steps = []
-    board_history = [] 
-
-    def select_unassigned_var(variables):
-        # Flatten the board to find unassigned vars
-        unassigned = [v for row in variables for v in row if v.val == 0]
-        if not unassigned:
-            return None
-        # MRV Heuristic: Minimum Remaining Values
-        return min(unassigned, key=lambda v: len(v.domain))
-
-    def ac3_after_assignment(var):
-        # Queue starts with immediate neighbors constraints
-        queue = deque([Constraint(var, neighbor) for neighbor in var.neighbors])
-        
-        while queue:
-            con = queue.popleft()
-            if con.resolve(): # If domain of con.xi was reduced
-                if not con.xi.domain:
-                    return False # Domain Wipeout found
-                
-                # PROPAGATION: Add neighbors of the modified variable to queue
-                for neighbor in con.xi.neighbors:
-                    if neighbor != con.xj:
-                        queue.append(Constraint(neighbor, con.xi))
-        return True
-
-    def record_board():
-        board_snapshot = [[variables[r][c].val for c in range(9)] for r in range(9)]
-        board_history.append(board_snapshot)
-
     def backtrack():
         var = select_unassigned_var(variables)
         if var is None:
             record_board()
             return True  
-        
-        local_domain_backup = {}
-        for r in range(9):
-            for c in range(9):
-                v_obj = variables[r][c]
-                local_domain_backup[v_obj] = v_obj.domain[:]
-
-        sorted_domain = sorted(var.domain) 
-        
-        for val in sorted_domain:
+        with open('ac3_log.txt' , 'a') as F:
+            F.write(f"picked X{var.row}{var.col} with minimum domain size {len(var.domain)}\n")
+        board = [[variables[r][c].val for c in range(9)] for r in range(9)]
+        original_domain = var.domain[:]
+        for val in original_domain:
+            if not is_valid(board, var.row,var.col,val):
+                continue
             var.val = val
-            # var.domain = [val] # Constrain domain to assignment
-            
             steps.append(f"Assign X{var.row}{var.col} = {val}")
             record_board()
 
-            # Run AC-3
-            # If AC-3 succeeds (no domain wipeout), continue deeper
+            neighbor_domains_backup = {n: n.domain[:] for n in var.neighbors}
+
             if ac3_after_assignment(var):
                 if backtrack():
-                    var.domain = [val]
                     return True
 
-            # --- BACKTRACKING HAPPENS HERE ---
-            
             steps.append(f"Backtrack X{var.row}{var.col} from {val}")
-            
-            # 2. FULL RESTORE: Reset the variable and restore ALL domains
-            var.val = 0 
-            
-            # Restore the state of the whole board to what it was 
-            # before we tried this value
-            for r in range(9):
-                for c in range(9):
-                    v_obj = variables[r][c]
-                    v_obj.domain = local_domain_backup[v_obj][:]
-            
+            var.val = 0
+            var.domain = original_domain[:]
+            for n in var.neighbors:
+                n.domain = neighbor_domains_backup[n]
             record_board()
 
         return False
 
-    # Initial AC-3 check (optional but recommended before starting)
-    # For now, we just jump into backtrack as per your logic
     success = backtrack()
-    
     if success:
         solved_board = [[variables[r][c].val for c in range(9)] for r in range(9)]
         return solved_board, steps, board_history
@@ -362,6 +310,9 @@ class SudokuGame(QtWidgets.QWidget):
 
         self.variables, self.constraints = build_csp_problem(board)
         solved, steps, history = solve_sudoku(self.variables, self.constraints)
+        with open('steps.txt' , 'a') as F:
+            for step in steps:
+                F.write(f"{step}\n")
         self.board_history = history
         self.history_index = len(history)-1
         self.update_history_buttons()
