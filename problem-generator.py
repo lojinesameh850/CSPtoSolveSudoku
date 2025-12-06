@@ -27,7 +27,7 @@ def user_input_board():
         r, c, val = map(int, input("enter row , col , val : ").split())
         if r==-1:
             return board
-        if not is_vaild(board, r, c, val) or board[r][c] != 0:
+        if not is_vaild(board, r, c, val):
             print("error : current input invalid, retry")
             continue
         board[r][c] = val
