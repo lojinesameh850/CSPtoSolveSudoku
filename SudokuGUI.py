@@ -2,9 +2,9 @@ from PyQt6 import QtWidgets, QtGui, QtCore
 import sys, random
 from problemGenerator import generate_board , Constraint , Variable, build_csp_problem, is_valid
 from collections import deque
-
-
+import time
 def solve_sudoku(variables, constraints):
+    start = time.time()
     steps = []
     board_history = [] 
 
@@ -62,6 +62,8 @@ def solve_sudoku(variables, constraints):
         return False
 
     success = backtrack()
+    end = time.time()
+    print(f"elapsed time = {end-start}")
     if success:
         solved_board = [[variables[r][c].val for c in range(9)] for r in range(9)]
         return solved_board, steps, board_history
@@ -81,7 +83,7 @@ class SudokuCell(QtWidgets.QLineEdit):
     def __init__(self, fixed=False):
         super().__init__()
         self.fixed = fixed
-        self.setFixedSize(50, 50) 
+        self.setFixedSize(55, 55) 
         self.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.setFont(QtGui.QFont("Arial", 20))
         self.reset_style()
@@ -306,6 +308,11 @@ class SudokuGame(QtWidgets.QWidget):
             for c in range(9):
                 t = self.cells[r][c].text()
                 row.append(int(t) if t.isdigit() else 0)
+                if self.cells[r][c].text().isdigit():
+                    cell = self.cells[r][c]
+                    cell.fixed = True
+                    cell.setReadOnly(True)
+                    cell.reset_style() 
             board.append(row)
 
         self.variables, self.constraints = build_csp_problem(board)
@@ -374,7 +381,7 @@ class StartMenu(QtWidgets.QWidget):
         self.mode_box.addItems(["Mode 1 (AI generates)","Mode 2 (User input)"])
 
         self.diff_box = QtWidgets.QComboBox()
-        self.diff_box.addItems(["Easy","Medium","Hard"])
+        self.diff_box.addItems(["Easy","Intermediate","Hard"])
 
         start_btn = QtWidgets.QPushButton("Start Game")
         start_btn.clicked.connect(lambda: self.start_signal.emit(self.mode_box.currentIndex(), self.diff_box.currentText()))

@@ -179,7 +179,6 @@ def build_csp_problem(board):
                     if rr != r or cc != c:
                         Xj = variables[rr][cc]
                         constraints.append(Constraint(Xi, Xj))
-    print_variables(variables)
     return variables, constraints
 
 
@@ -213,17 +212,4 @@ def create_board(mode):
 
 
 if __name__ == "__main__":
-    board = create_board(2)
-    print("generated board : ")
-    print_board(board)
-
-    variables, constraints = build_csp_problem(board)
-
-    print("\nbefore resolving constraints:")
-    print_variables(variables)
-
-    if not resolve_constraints(constraints):
-        print("board is invalid")
-
-    print("\nafter resolving constraints:")
-    print_variables(variables)
+    pass
